@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff477d0da2d7644a85ff1083527ddf6, type: 3}
+  m_Name: Rec_Potion_Red
+  m_EditorClassIdentifier: 
+  RecipeType: 3
+  RecipeId: 1
+  ItemName: Potion_Red
+  Description: 
+  Sprite: {fileID: 1234963088, guid: ef2340069d0c6f74aad1827d5bae8970, type: 3}
+  CratedItem: {fileID: 11400000, guid: a2033e0c078beed4783fa0ab36aecc40, type: 2}
+  Materials:
+  - scriptableItem: {fileID: 11400000, guid: f550bcd11255b6b4fbac41fc4ba5e545, type: 2}
+  - scriptableItem: {fileID: 11400000, guid: 74fb14f2df0739742b7aa4b658354b6a, type: 2}

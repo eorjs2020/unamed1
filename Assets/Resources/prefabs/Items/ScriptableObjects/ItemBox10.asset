@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3287c2d8eb7adef4484ada90c88975c7, type: 3}
+  m_Name: ItemBox10
+  m_EditorClassIdentifier: 
+  InvenItemType: 2
+  ItemId: 11
+  ItemName: ItemBox10
+  Description: I'm the Box!
+  Sprite: {fileID: 152030240, guid: 492561d54a08d504d87b2463b6164bf1, type: 3}
+  ItemLevel: 0

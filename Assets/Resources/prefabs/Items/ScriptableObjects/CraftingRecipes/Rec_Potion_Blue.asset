@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff477d0da2d7644a85ff1083527ddf6, type: 3}
+  m_Name: Rec_Potion_Blue
+  m_EditorClassIdentifier: 
+  RecipeType: 1
+  RecipeId: 2
+  ItemName: Potion_Blue
+  Description: 
+  Sprite: {fileID: -646885242, guid: ef2340069d0c6f74aad1827d5bae8970, type: 3}
+  CratedItem: {fileID: 11400000, guid: 71da0dfc2a732a240a8115f503b79f8e, type: 2}
+  Materials:
+  - scriptableItem: {fileID: 11400000, guid: 3bb4e01a5bcfd6845987f39cea9a969c, type: 2}
+  - scriptableItem: {fileID: 11400000, guid: 74fb14f2df0739742b7aa4b658354b6a, type: 2}
+  - scriptableItem: {fileID: 11400000, guid: 3bb4e01a5bcfd6845987f39cea9a969c, type: 2}

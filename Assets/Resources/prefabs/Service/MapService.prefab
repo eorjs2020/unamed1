@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7192670028771106243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2260638352313511202}
+  - component: {fileID: 5406128514284593051}
+  m_Layer: 0
+  m_Name: MapService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2260638352313511202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192670028771106243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5406128514284593051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192670028771106243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd766dfcd5835148a52ec15ef4551ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumOfLobby: 50
+  MapPrefab:
+    LobbyList:
+    - LobbyPrefab: {fileID: 3283227083783840248, guid: 720c51887c07b72498e18d6af00b108c, type: 3}
+      RoomPrefabList:
+      - {fileID: 4701556850604272117, guid: ee542e937577b81438f67cbc35d1ffc7, type: 3}
+    - LobbyPrefab: {fileID: 3283227083783840248, guid: 720c51887c07b72498e18d6af00b108c, type: 3}
+      RoomPrefabList:
+      - {fileID: 4701556850604272117, guid: ee542e937577b81438f67cbc35d1ffc7, type: 3}
+    - LobbyPrefab: {fileID: 3283227083783840248, guid: 720c51887c07b72498e18d6af00b108c, type: 3}
+      RoomPrefabList:
+      - {fileID: 4701556850604272117, guid: ee542e937577b81438f67cbc35d1ffc7, type: 3}
+    - LobbyPrefab: {fileID: 3283227083783840248, guid: 720c51887c07b72498e18d6af00b108c, type: 3}
+      RoomPrefabList:
+      - {fileID: 4701556850604272117, guid: ee542e937577b81438f67cbc35d1ffc7, type: 3}
+    - LobbyPrefab: {fileID: 3283227083783840248, guid: 720c51887c07b72498e18d6af00b108c, type: 3}
+      RoomPrefabList:
+      - {fileID: 4701556850604272117, guid: ee542e937577b81438f67cbc35d1ffc7, type: 3}
+    StartRoomPrefab: {fileID: 0}
+  _cinemachineConfiner2D: {fileID: 0}
